@@ -1,0 +1,9 @@
+.chart-container {
+    width: 50%;
+    float: left;
+}
+
+.table-container {
+    width: 50%;
+    float: right;
+}
