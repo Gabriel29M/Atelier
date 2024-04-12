@@ -1,9 +1,45 @@
-.chart-container {
-    width: 50%;
-    float: left;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.table-container {
-    width: 50%;
-    float: right;
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar {
+    width: 150px;
+    height: 100%;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 150;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+    /* Tamanho da barra superior */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    margin-left: 150px;
+    height: 500px;
+    padding: 0px;
+    background-color: #a19dc6;
 }
