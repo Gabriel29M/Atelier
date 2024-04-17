@@ -43,3 +43,63 @@ body {
     padding: 0px;
     background-color: #aca9cd;
 }
+
+select[name="trilhoVarao"] {
+    width: 200px;
+}
+
+select[name="terminal"] {
+    width: 200px;
+}
+
+input[id="valor1"] {
+    width: 100px;
+}
+
+input[id="valor1.1"] {
+    width: 100px;
+}
+
+input[id="valor1.2"] {
+    width: 100px;
+}
+
+input[id="valor1.3"] {
+    width: 200px;
+}
+
+input[id="valor2"] {
+    width: 100px;
+}
+
+input[id="valor2.1"] {
+    width: 100px;
+}
+
+input[id="valor2.2"] {
+    width: 100px;
+}
+
+input[id="valor2.3"] {
+    width: 200px;
+}
+
+label[for="valorA"] {
+    margin-left: 50px;
+}
+
+label[for="valorB"] {
+    margin-left: 95px;
+}
+
+label[for="valorC"] {
+    margin-left: 45px;
+}
+
+label[for="valorD"] {
+    margin-left: 65px;
+}
+
+label[for="valorE"] {
+    margin-left: 90px;
+}

@@ -29,15 +29,43 @@
         <div id="dashboard">
             <!-- Aqui serão adicionados inputs, gráficos, tabelas, etc. -->
 
+
             <!--Inputs para manipulação de dados-->
             <div>
-                <label for="valor1">Input 1</label>
-                <input type="text" id="valor1">
+                <label for="valorA">Materiais</label>
+                <label for="valorB">Quantidade</label>
+                <label for="valorC">Preço</label>
+                <label for="valorD">Total</label>
+                <label for="valorE">Observações</label>
+            </div>
+            <div>
+                <form>
+                    <select name="trilhoVarao" required="required">
+                        <option value="">Escolha um Trilho ou Varão</option>
+                        <option value="trilho">Trilho</option>
+                        <option value="varao">Varão</option>
+                    </select>
+                    <!--<label for="valor1">L1</label>-->
+                    <input type="text" id="valor1" placeholder="Quantidade">
+                    <input type="text" id="valor1.1" placeholder="Preço">
+                    <input type="text" id="valor1.2" placeholder="Total">
+                    <input type="text" id="valor1.3" placeholder="Observações">
+                </form>
             </div>
 
             <div>
-                <label for="valor2">Input 2</label>
-                <input type="text" id="valor2">
+                <form>
+                    <select name="terminal" required="required">
+                        <option value="">Escolha um Terminal</option>
+                        <option value="terminalMax">Terminal Max</option>
+                        <option value="terminalMini">Terminal Mini</option>
+                    </select>
+                    <!--<label for="valor2">L2</label>-->
+                    <input type="text" id="valor2" placeholder="Quantidade">
+                    <input type="text" id="valor2.1" placeholder="Preço">
+                    <input type="text" id="valor2.2" placeholder="Total">
+                    <input type="text" id="valor2.3" placeholder="Observações">
+                </form>
             </div>
 
             <div>
